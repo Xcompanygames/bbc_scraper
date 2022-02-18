@@ -1,9 +1,7 @@
 from data_collection_manager import data_collection
-
 from selenium import webdriver
 from article import articleScrapObject
 import os
-
 
 os.environ['PATH'] += r"C:/chromedriver"
 

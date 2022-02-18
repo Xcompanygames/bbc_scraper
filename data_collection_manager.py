@@ -2,7 +2,6 @@ import time
 from linkscraperobject import linkScraperObject
 from article import articleScrapObject
 import os
-import glob
 import file_manager
 from selenium import webdriver
 from tqdm import tqdm
@@ -75,3 +74,6 @@ class data_collection:
 
     def get_article_links(self):
         return self.new_article_links
+
+    def close_driver(self):
+        self.driver.close()

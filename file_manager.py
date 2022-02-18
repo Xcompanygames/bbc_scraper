@@ -49,7 +49,6 @@ def load_file(data):
         data = json.load(file_obj)
     return data
 
-
 def save_file(articleScrapObject,folder_name):
     link = articleScrapObject.get_link()
     file_name = usable_link_to_file_name(link)

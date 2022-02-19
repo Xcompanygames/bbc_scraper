@@ -12,3 +12,4 @@ Scraper is written with OOP in mind so:
 - [file_manager] - A file manager that saves article objects and loads json files into article objects. (Not an object!)
 - [linkscraperobject] Object - Object that scrapes the article links on the main site of the BBC.
 
+## A things I would change is to create a article factory object that creates article objects, instead of initiating the webdriver inside the article object also have a print overrding method __repr__ in article object
